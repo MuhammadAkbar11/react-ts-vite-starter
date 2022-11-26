@@ -1,7 +1,7 @@
 function App() {
   return (
-    <div className="">
-      <h1>Hello There</h1>
+    <div className="box">
+      <h1>Vite, React, Typescript and TailwindCss Starter</h1>
     </div>
   );
 }
