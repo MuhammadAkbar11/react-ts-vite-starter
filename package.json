@@ -8,12 +8,13 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest",
-    "prepare": "husky install",
-    "lint": "eslint --fix --ext .js,.jsx,.ts,.tsx ./src"
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src",
+    "lint:fix": "eslint --ext .js,.jsx,.ts,.tsx ./src",
+    "prepare": "husky install"
   },
   "lint-staged": {
-    "**/*.{js,jsx,ts,tsx}": [
-      "yarn run lint"
+    "*.{js,jsx,ts,tsx}": [
+      "yarn lint"
     ]
   },
   "dependencies": {
