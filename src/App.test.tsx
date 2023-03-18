@@ -13,6 +13,6 @@ describe('App', () => {
       screen.getByRole('heading', {
         level: 1,
       })
-    ).toHaveTextContent('Vite, React, Typescript and TailwindCss Starter');
+    ).toHaveTextContent('Vite, React, & Typescript Starter');
   });
 });

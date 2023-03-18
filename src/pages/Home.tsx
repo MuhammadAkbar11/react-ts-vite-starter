@@ -7,7 +7,7 @@ type Props = {};
 function Home({}: Props) {
   return (
     <div className="box">
-      <h1>Vite, React, Typescript and TailwindCss Starter</h1>
+      <h1>Vite, React, & Typescript Starter</h1>
     </div>
   );
 }
